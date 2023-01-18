@@ -1,11 +1,28 @@
-h1{
-   color: red;
+.{
+    margin: 0;
+    padding: 0;
 }
-.parrafo1 {
+.nav-bar{
+    margin-top:30px;
+    list-style:none;
+    background-color:violet;
+}
+.list-nav-bar {
+
+    display: inline-block;
+    padding-left: 30px;
+}
+.list-nav-bar a {
+    color:wheat;
+    text-decoration: none;
+}
+
+.list-nav-bar a:hover{
     color:blue;
-    font-size:50px;
 }
-#parrafo2{
-    color:green;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+.list-nav-bar a:active{
+    color:red;
+}
+.list-nav-bar a::after{
+    content: " | ";
 }
