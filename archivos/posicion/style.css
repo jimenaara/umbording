@@ -1,0 +1,32 @@
+.contenedor {
+    border: red 2px dotted;
+    display: inline-block;
+    position: relative;
+    top: 100px;
+    left: 150px;
+    z-index: 1;
+}
+
+.box {
+    background-color:teal;
+    display: inline-block;
+    width: 100px;
+    height:100px;
+    color: white;
+}
+
+#dos{
+    background-color: tomato;
+    position: fixed;
+    top: 10px;
+    left: 50px;
+}
+
+#texto {
+     width: 300px;
+     position: relative;
+     left: 150px;
+     z-index: 7;
+
+
+}
